@@ -1,25 +1,25 @@
 class Dryve < Formula
   desc "Pull, selectively download, and sync shared Google Drive folders from the terminal"
   homepage "https://github.com/notenderdreams/dryve"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/notenderdreams/dryve/releases/download/v0.2.1/dryve-aarch64-apple-darwin.tar.xz"
-      sha256 "c0ae1b54077b470aef1aeda353fb0c287d30b84645b2ea1ddb3c4de1cb8cda28"
+      url "https://github.com/notenderdreams/dryve/releases/download/v0.3.0/dryve-aarch64-apple-darwin.tar.xz"
+      sha256 "dfd056d94790524d1bf6a3e3410e75fe1453140b0439d75e16bf75c3aaed1eb2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/notenderdreams/dryve/releases/download/v0.2.1/dryve-x86_64-apple-darwin.tar.xz"
-      sha256 "0f4f947a7642546c0e72c550bc3384d66cb597091d3b4302a862738e068bc294"
+      url "https://github.com/notenderdreams/dryve/releases/download/v0.3.0/dryve-x86_64-apple-darwin.tar.xz"
+      sha256 "d3576be077cbdcb92e87e3abcf436a66642508ea127577ae6addf133ebd78772"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/notenderdreams/dryve/releases/download/v0.2.1/dryve-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3bf83a66ed4fd28d225748db1abab2ff04761cfd64ab17cbe1e98baf0c6b7824"
+      url "https://github.com/notenderdreams/dryve/releases/download/v0.3.0/dryve-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f15541c123e244f3ff1b3a336f27771d11042904ccb62a0df267031d2855fe9c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/notenderdreams/dryve/releases/download/v0.2.1/dryve-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ef4042a1ce9fdcb488b652d32240f2acae0d9210af8ef2ecd229256860b1d7ee"
+      url "https://github.com/notenderdreams/dryve/releases/download/v0.3.0/dryve-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4fc92c092aba67b59873b88a4919a5f9d602670d6c04d37d3df16a4413f6f84d"
     end
   end
 
